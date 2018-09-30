@@ -15,6 +15,27 @@
 </head>
 
 <body>
+    <div class="container containerComment">
+        <section class="row justify-content-center">
+            <article class="col-12 col-md-6 bg-white pb-5 mt-5 rounded styleContent">
+                <h1 class="display-4 fontSizeTitle text-center mt-4">Sección de Comentarios</h1>
+                <hr>
+                <form class="mt-5">
+                    <div class="form-group">
+                        <label>Ingrese comentario</label>
+                        <textarea class="form-control" id="commentTextArea" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-success" onclick="sendComment()">Enviar comentario</button>
+                </form>
+                <article id="commentBox" class="col-12 mt-3 px-0">
+
+                </article>
+            </article>
+        </section>
+
+
+    </div>
+
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <!-- popper.js -->

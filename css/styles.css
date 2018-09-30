@@ -1,0 +1,15 @@
+.fontSizeTitle {
+    font-size: 40px;
+}
+
+body {
+    background-image: url("../img/fondo.jpg");
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.styleContent {
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.60);
+}
